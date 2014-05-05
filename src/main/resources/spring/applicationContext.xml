@@ -8,4 +8,6 @@
 <context:annotation-config></context:annotation-config>        
 
  <bean class="com.netapp.ocum.SpringLifecycleCallbacksExample" init-method="initialization" destroy-method="destruction"></bean>
+ 
+ <bean class="com.netapp.ocum.SpringInitializationSequenceExample"></bean>
 </beans>
