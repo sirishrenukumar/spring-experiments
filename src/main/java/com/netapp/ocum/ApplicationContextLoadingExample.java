@@ -8,6 +8,7 @@ public class ApplicationContextLoadingExample {
 	public static void main (String []a) {
 		
 		ApplicationContext appContext = new ClassPathXmlApplicationContext("spring/applicationContext.xml");
+		
 	}
 
 }
